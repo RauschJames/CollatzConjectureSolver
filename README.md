@@ -1,3 +1,3 @@
-# CollatzConjectureTester
+# CollatzConjectureTester #Just for fun. 
 Plug in a number and get nothing done.
-Just for fun, matplotlib and scatter plot practice too.
+Matplotlib and scatter plot practice too.
