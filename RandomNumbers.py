@@ -1,0 +1,2 @@
+from CollatzSeries import NumberGenerator
+Generator = NumberGenerator
