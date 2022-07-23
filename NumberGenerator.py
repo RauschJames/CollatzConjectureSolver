@@ -1,18 +1,19 @@
 class NumberGenerator():
-	def __init__():
+	def __init__(self):
 		#nothing  to do
-	def generatePath(int x): #returns an array with the path of X to 1
+		x = 2
+	def generatePath(self,x): #returns an array with the path of X to 1
 		path = []
 		path.append(x) #starter makes sure 1 is included
 		while(x != 1):
 			if(x % 2 != 0): #odd
 				x = 3*x + 1
 				path.append(x)
-			 else 
+			else:
 				x = x / 2;
 				path.append(x)
 		return path
-	def stepsToOne(int x): #return counter of steps to 1
+	def stepsToOne(self,x): #return counter of steps to 1
 		steps = 0
 		while(x != 1):
 			if(x % 2 != 0): #odd
@@ -20,12 +21,12 @@ class NumberGenerator():
 			else:
 				steps += stepsToOne(x / 2)
 		return steps
-	def printPath(int x): #like generatePath but just prints them
+	def printPath(self,x): #like generatePath but just prints them
 		while(x != 1):
 			if(x % 2 != 0): #odd
 				x = 3*x + 1
 				print(" " + x +" ")
-			 else 
+			else:
 				x = x / 2;
 				print(" " + x +" ")
 
