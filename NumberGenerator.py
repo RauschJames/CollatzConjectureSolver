@@ -20,6 +20,13 @@ class NumberGenerator():
 			else:
 				steps += stepsToOne(x / 2)
 		return steps
-
+	def printPath(int x): //like generatePath but just prints them
+		while(x != 1):
+			if(x % 2 != 0): //odd
+				x = 3*x + 1
+				print(" x ")
+			 else 
+				x = x / 2;
+				print(" x ")
 
 	
